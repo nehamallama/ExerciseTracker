@@ -64,7 +64,12 @@ app.listen(port, () => {
 
 
 
-
+//TODO
+// auth
+// login/out
+// images
+// currUser
+// middleware
 
 
 

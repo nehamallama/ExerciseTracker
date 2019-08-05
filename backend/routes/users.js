@@ -6,7 +6,7 @@ router.route('/').get((req, res) => {
     User.find()
         .then(users => {
 
-            res.json(users)
+            res.json(users.username)
         }) //return all of the users from the db in json
         .catch(err => {
             res.status(400).json('Error: ' + err);
